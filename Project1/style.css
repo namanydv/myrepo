@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: rgb(66, 141, 217); */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#navpt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav h3,i{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5%;
+    margin: 2px;
+}
+
+#nav h3{
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 5px 10xp;
+    border-radius: 50px;
+    font-weight: 00;
+}
+#nav h1{
+    font-weight: 100;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 9px 15px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+
+}
+
+#bt2{
+    background-color: red;
+    color: white;
+}
+
+#page{
+    font-size: 200px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-7deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-14deg);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-21deg);
+}
+
+#end{
+    position: absolute;
+    bottom: 5%;
+    left:4%;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#socialmedia{
+    position: absolute;
+    bottom: 5%;
+    right:4%;
+    font-size: 50px;
+    display: flex;
+}
+
+h3{
+    font-weight: 80;
+}
